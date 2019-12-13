@@ -43,14 +43,17 @@ class Jokenpo
         $this->__isAValidOption($player1);
         $this->__isAValidOption($player2);
         
+        //If both players play the same, then it's a draw
         if ($player1 == $player2) {
             return 'Draw!';
         }
 
+        //If player1's play wins player2's play, player1 wins
         if ($this->rules[$player1]['win'] === $player2) {
             return $this->rules[$player1]['msg'] . ' Player 1 wins!';
         }
 
+        //There was no draw and player1 didn't win, so player2 wins
         return $this->rules[$player2]['msg'] . ' Player 2 wins!';
     }
 
