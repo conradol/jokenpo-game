@@ -1,0 +1,15 @@
+{
+    "name": "conradol/jokenpo-game",
+    "description": "A simple Jokenpo game",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JokenpoGame\\":[ "src/", "tests/" ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
