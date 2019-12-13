@@ -68,7 +68,7 @@ class Jokenpo
     }
 
     /**
-     * Verifiy if the pass value is a valid play
+     * Verifiy if the passed value is a valid play
      * 
      * @param string value
      * @return bool 
