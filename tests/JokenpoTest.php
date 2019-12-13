@@ -95,5 +95,15 @@ class JokenpoTest extends TestCase
         $this->assertEquals($expected, $result);
     }
     
+    public function test_exception()
+    {
+        $jokenpo = new Jokenpo();
 
+        $player1 = 'p21per';
+        $player2 = 'scissors';
+        
+        $this->expectException(InvalidArgumentException::class);
+
+        $jokenpo->play($player1, $player2);
+    }
 }
