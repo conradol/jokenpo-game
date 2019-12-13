@@ -58,7 +58,7 @@ class Jokenpo
     }
 
     /**
-     * Remove spaces and transform to lower a string
+     * Remove spaces and transform to lowercase string
      * @param string value
      * @return string
      */
