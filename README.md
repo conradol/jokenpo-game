@@ -39,8 +39,8 @@ cd project_path
 ```
 
 The script accept two parameters:
-  * --player1 [rock, paper or scissor]
-  * --player2 [rock, paper or scissor]
+  * --player1 [rock, paper or scissors]
+  * --player2 [rock, paper or scissors]
 
 Example:
 
